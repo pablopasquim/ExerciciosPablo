@@ -1,3 +1,5 @@
+#Digitar o nome e fazer varias formatações
+
 nome = input("Digite seu nome: ").strip()
 print("Nome maiúsculo {}".format(nome.upper()))
 print("Nome minúsculo {}".format(nome.lower()))
