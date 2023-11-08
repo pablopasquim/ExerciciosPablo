@@ -22,7 +22,7 @@ int main(){
 		printf("Informe o nome da loja: ");
 		scanf(" %30[^\n]", l[i].nome_loja);
 
-		printf("Informe o preço do Tablet: ");
+		printf("Informe o preÃ§o do Tablet: ");
 		scanf("%f", &l[i].preco);
 		
 		soma += l[i].preco;
@@ -33,10 +33,13 @@ int main(){
 	for(i=0;i <5;i++){
 		if(l[i].preco < media){
 			printf("\nNome da Loja: %s ", l[i].nome_loja);
-  			printf("\nPreço: %.2f ", l[i].preco);
-  			printf("\nLoja com tablets abaixo da média de preço (%.2f):\n", media);
+  			printf("\nPreÃ§o: %.2f ", l[i].preco);
 	}
 
 }
+
+	printf("\nMÃ©dia de preÃ§o (%.2f):\n", media);
+
+	
 	return 0;
 }
